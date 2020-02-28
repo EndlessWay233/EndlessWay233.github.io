@@ -152,6 +152,75 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-解决IDEA连接mysql时出现Server returns invalid timezone问题一劳永逸的方法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/%E8%A7%A3%E5%86%B3IDEA%E8%BF%9E%E6%8E%A5mysql%E6%97%B6%E5%87%BA%E7%8E%B0Server%20returns%20invalid%20timezone%E9%97%AE%E9%A2%98%E4%B8%80%E5%8A%B3%E6%B0%B8%E9%80%B8%E7%9A%84%E6%96%B9%E6%B3%95/">解决IDEA连接mysql时出现Server returns invalid timezone问题一劳永逸的方法</a>
+    </h1>
+  
+
+        
+        <a href="/2020/02/29/%E8%A7%A3%E5%86%B3IDEA%E8%BF%9E%E6%8E%A5mysql%E6%97%B6%E5%87%BA%E7%8E%B0Server%20returns%20invalid%20timezone%E9%97%AE%E9%A2%98%E4%B8%80%E5%8A%B3%E6%B0%B8%E9%80%B8%E7%9A%84%E6%96%B9%E6%B3%95/" class="archive-article-date">
+  	<time datetime="2020-02-28T16:36:25.507Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-02-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="解决IDEA连接mysql时出现Server-returns-invalid-timezone问题一劳永逸的方法"><a href="#解决IDEA连接mysql时出现Server-returns-invalid-timezone问题一劳永逸的方法" class="headerlink" title="解决IDEA连接mysql时出现Server returns invalid timezone问题一劳永逸的方法"></a>解决IDEA连接mysql时出现Server returns invalid timezone问题一劳永逸的方法</h1><p><strong>一劳永逸的解决方案，步骤如下：</strong></p>
+<p><strong>1、找到你的mysql的安装目录</strong></p>
+<p><strong>2、找到my.ini(windows)或者my.cnf（linux），也就是mysql的配置文件</strong></p>
+<p><strong>3、打开配置文件，复制以下代码     粘贴在配置文件末尾，保存退出。</strong></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">default-time_zone</span>=<span class="string">'+8:00'</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>4、重启mysql，到此完结</strong></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/02/29/%E8%A7%A3%E5%86%B3IDEA%E8%BF%9E%E6%8E%A5mysql%E6%97%B6%E5%87%BA%E7%8E%B0Server%20returns%20invalid%20timezone%E9%97%AE%E9%A2%98%E4%B8%80%E5%8A%B3%E6%B0%B8%E9%80%B8%E7%9A%84%E6%96%B9%E6%B3%95/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
